@@ -1,11 +1,9 @@
 # plot.py
 # plot graph of one period of the sine and cosine functions
 
-
 # modules
 import numpy as np
 import matplotlib.pyplot as plt
-
 
 def main():
     # define x series
@@ -20,7 +18,6 @@ def main():
     plt.ylabel("y", rotation=0)
     plt.grid()
     plt.show()
-
 
 if __name__ == "__main__":
     main()
